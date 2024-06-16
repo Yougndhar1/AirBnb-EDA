@@ -5,18 +5,19 @@ This project aims to analyze Airbnb booking data from New York City (NYC) for th
 ## Problem Statement
 The NYC Airbnb dataset contains approximately 49,000 listings with detailed information on property details, pricing, availability, reservation dates, length of stay, and guest feedback. The goal of this analysis is to explore and understand the dynamics of Airbnb listings in NYC, focusing on several key areas:
 
-**.Room Type Analysis:** Understanding the distribution and performance of different room types.
-
-**.Geographic Analysis:** Examining the geographic distribution of listings and identifying popular neighborhoods.
-
-**.Pricing Strategy Analysis:** Analyzing pricing patterns and strategies to optimize revenue.
-**.Availability and Engagement Analysis:** Investigating booking trends, availability, and guest engagement.
-
-**.Host Optimization:** Providing recommendations for hosts to improve listing performance.
-
-**.Guest Experience:** Enhancing guest satisfaction by understanding their preferences and feedback.
-
-**.Airbnb Strategy:** Guiding Airbnb's marketing and service improvement efforts.
+  **.Room Type Analysis:** Understanding the distribution and performance of different room           types.
+  
+  **.Geographic Analysis:** Examining the geographic distribution of listings and identifying         popular neighborhoods.
+  
+  **.Pricing Strategy Analysis:** Analyzing pricing patterns and strategies to optimize revenue.
+  
+  **.Availability and Engagement Analysis:** Investigating booking trends, availability, and          guest engagement.
+  
+  **.Host Optimization:** Providing recommendations for hosts to improve listing performance.
+  
+  **.Guest Experience:** Enhancing guest satisfaction by understanding their preferences and          feedback.
+  
+  **.Airbnb Strategy:** Guiding Airbnb's marketing and service improvement efforts.
 
 ## Define Your Business Objective 
 The purpose of this analysis is to derive actionable insights from Airbnb listing data in New York City for the year 2019. These insights will inform strategic decision-making and drive performance improvements for key stakeholders. By enhancing the efficiency and effectiveness of the Airbnb platform, this analysis aims to elevate satisfaction levels for both hosts and guests. Ultimately, the goal is to foster growth and strengthen Airbnb's competitive position within the New York City market.
@@ -59,7 +60,7 @@ It encompasses a range of data types crucial for analyzing pricing trends, neigh
 
 ## Task 3: Data Wrangling.
 
-A copy of the original DataFrame was made to preserve data integrity. Rows with missing 'name' values were dropped to ensure data completeness. Columns with over 50% missing values were removed for enhanced dataset quality.
+Rows with missing 'name' values were dropped to ensure data completeness. Columns with over 50% missing values were removed for enhanced dataset quality.
 
 Numerical columns were filled with the median to handle missing values robustly. Categorical columns were filled with the mode for consistency in data handling.
 
